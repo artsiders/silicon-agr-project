@@ -1,5 +1,5 @@
+import { BiBook } from "react-icons/bi";
 import { BiHomeAlt } from "react-icons/bi";
-import { MdRestaurantMenu } from "react-icons/md";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BiDrink } from "react-icons/bi";
@@ -13,8 +13,8 @@ const Navbar = () => {
       icon: BiHomeAlt,
     },
     {
-      link: "/menu",
-      icon: MdRestaurantMenu,
+      link: "/Formations",
+      icon: BiBook,
     },
     {
       link: "/drinks",

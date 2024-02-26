@@ -53,7 +53,7 @@ const Topbar = () => {
         className={`h-16 fixed top-0 z-40 ${scrollClass} flex justify-between items-center px-3 md:px-6 w-screen`}
       >
         <NavLink to="/" className="font-bold flex items-center gap-2 bg-[#f7f7f7]/90 dark:bg-dark/80 border-2 border-white dark:border-transparent rounded-xl py-1 px-3">
-          <TbPlant2 className="text-3xl" />
+          <TbPlant2 className="text-2xl bg-primary/30 h-7 w-7 rounded-full p-1" />
           <h1 className="hidden xxs:block">Green Agr</h1>
         </NavLink>
 

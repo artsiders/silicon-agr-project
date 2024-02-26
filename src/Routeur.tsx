@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Menu from "./Pages/Menu";
 import Drinks from "./Pages/Drinks";
 import Cart from "./Pages/Cart";
 import Order from "./Pages/Order";
@@ -11,11 +10,11 @@ import RestoTables from "./Pages/dashboard/RestoTables";
 import RestoAccount from "./Pages/dashboard/RestoAccount";
 import RestoLayout from "./components/RestoLayout";
 import DisableRouteWhenUserIsLog from "./components/DisableRouteWhenUserIsLog";
-import RouteAfterScan from "./components/RouteAfterScan";
 import Notfound from "./components/Notfound";
 import RestoOrders from "./Pages/dashboard/RestoOrders";
 import RestoFoods from "./Pages/dashboard/RestoFoods";
 import Home from "./Pages/Home";
+import Formations from "./Pages/Formations";
 
 const Routeur = () => {
 
@@ -38,12 +37,10 @@ const Routeur = () => {
 
                 <Route element={<Layout />}>
                     <Route path="/" element={<Home />} />
-                    <Route element={<RouteAfterScan />}>
-                        <Route path="/menu" element={<Menu />} />
-                        <Route path="/drinks" element={<Drinks />} />
-                        <Route path="/cart" element={<Cart />} />
-                        <Route path="/order" element={<Order />} />
-                    </Route>
+                    <Route path="/formations" element={<Formations />} />
+                    <Route path="/drinks" element={<Drinks />} />
+                    <Route path="/cart" element={<Cart />} />
+                    <Route path="/order" element={<Order />} />
 
                     <Route path="*" element={<Notfound />} />
                 </Route>

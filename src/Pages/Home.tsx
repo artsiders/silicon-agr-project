@@ -11,30 +11,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Footer from "../components/Footer";
+import AboutSection from "../components/AboutSection";
+import { useScrollTo } from "../components/useScrollTo";
+import { articles } from "../articles";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
-  const articles = [
-    {
-      title: "RÉUSSIR SA TRANSITION VERS L'AGROÉCOLOGIE",
-      description: "Après avoir observé de nombreux systèmes agricoles dans le monde, Alain PEETERS a conçu et développé des systèmes agroécologiques qui combinent le meilleur de l’agriculture biologique et de l’agriculture de cons...",
-      image: "/images/african-farm-1.jpg"
-    },
-    {
-      title: "RÉUSSIR SA TRANSITION VERS L'AGROÉCOLOGIE",
-      description: "Après avoir observé de nombreux systèmes agricoles dans le monde, Alain PEETERS a conçu et développé des systèmes agroécologiques qui combinent le meilleur de l’agriculture biologique et de l’agriculture de cons...",
-      image: "/images/african-farm-1.jpg"
-    },
-    {
-      title: "RÉUSSIR SA TRANSITION VERS L'AGROÉCOLOGIE",
-      description: "Après avoir observé de nombreux systèmes agricoles dans le monde, Alain PEETERS a conçu et développé des systèmes agroécologiques qui combinent le meilleur de l’agriculture biologique et de l’agriculture de cons...",
-      image: "/images/african-farm-1.jpg"
-    },
-    {
-      title: "RÉUSSIR SA TRANSITION VERS L'AGROÉCOLOGIE",
-      description: "Après avoir observé de nombreux systèmes agricoles dans le monde, Alain PEETERS a conçu et développé des systèmes agroécologiques qui combinent le meilleur de l’agriculture biologique et de l’agriculture de cons...",
-      image: "/images/african-farm-1.jpg"
-    },
-  ]
+  useScrollTo()
+
   return (
     <div className="text-center flex w-full flex-col justify-center items-center h-fit pt-72">
 
@@ -49,7 +33,6 @@ export default function Home() {
       ></div>
 
       <div className="flex flex-col gap-4">
-        <h2 className="font-bold mb-3">NOS FORMATIONS AGRICOLES À DISTANCE</h2>
 
         <Swiper
           slidesPerView={"auto"}
@@ -84,8 +67,13 @@ export default function Home() {
             </label>
           </SwiperSlide>
         </Swiper>
-        {articles.map((article: Article, key: number) => <ArticleCard key={key} article={article} />)}
+        <h2 className="font-bold mb-3">NOS FORMATIONS AGRICOLES À DISTANCE</h2>
+        {articles.filter((_element, index) => index < 2).map((article: Article, key: number) => <ArticleCard key={key} article={article} />)}
+        <NavLink to="/formations" className="btn-secondary m-auto">
+          Affichez plus →
+        </NavLink>
       </div>
+      <AboutSection />
 
       <Footer />
     </div>

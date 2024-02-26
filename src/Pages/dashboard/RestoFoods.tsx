@@ -3,7 +3,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 import RestoFoodCard from "../../components/RestoFoodCard";
 import { useState } from "react";
 import ModalScreen from "../../components/ModalScreen";
-import AddFoodForm from "../../components/AddFoodForm";
+import AddFoodForm from "../../components/ArticleDetail";
 import { useSelector } from "react-redux";
 import { RootState } from "../../app/store";
 
