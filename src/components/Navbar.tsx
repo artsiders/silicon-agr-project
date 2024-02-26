@@ -1,8 +1,7 @@
+import { TiWeatherPartlySunny } from "react-icons/ti";
+import { BiStoreAlt } from "react-icons/bi";
 import { BiBook } from "react-icons/bi";
 import { BiHomeAlt } from "react-icons/bi";
-import { AiOutlineCheckCircle } from "react-icons/ai";
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { BiDrink } from "react-icons/bi";
 import { createElement } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -17,16 +16,12 @@ const Navbar = () => {
       icon: BiBook,
     },
     {
-      link: "/drinks",
-      icon: BiDrink,
+      link: "/market-place",
+      icon: BiStoreAlt,
     },
     {
-      link: "/cart",
-      icon: AiOutlineShoppingCart,
-    },
-    {
-      link: "/order",
-      icon: AiOutlineCheckCircle,
+      link: "/weather",
+      icon: TiWeatherPartlySunny,
     },
   ];
 

@@ -15,6 +15,7 @@ import RestoOrders from "./Pages/dashboard/RestoOrders";
 import RestoFoods from "./Pages/dashboard/RestoFoods";
 import Home from "./Pages/Home";
 import Formations from "./Pages/Formations";
+import MarketPlace from "./Pages/MarketPlace";
 
 const Routeur = () => {
 
@@ -38,6 +39,7 @@ const Routeur = () => {
                 <Route element={<Layout />}>
                     <Route path="/" element={<Home />} />
                     <Route path="/formations" element={<Formations />} />
+                    <Route path="/market-place" element={<MarketPlace />} />
                     <Route path="/drinks" element={<Drinks />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/order" element={<Order />} />

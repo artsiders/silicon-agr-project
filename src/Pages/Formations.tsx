@@ -26,7 +26,7 @@ export default function Formations() {
                 style={{
                     background: `linear-gradient(
                         to bottom, 
-                        rgb(255 255 255 / .5), rgb(255 255 255 / 0)
+                        rgb(0 0 0 / .6), rgb(0 0 0 / 0)
                     ), url(/images/formations.jpg)`,
                 }}
             ></div>

@@ -54,7 +54,7 @@ const Topbar = () => {
       >
         <NavLink to="/" className="font-bold flex items-center gap-2 bg-[#f7f7f7]/90 dark:bg-dark/80 border-2 border-white dark:border-transparent rounded-xl py-1 px-3">
           <TbPlant2 className="text-2xl bg-primary/30 h-7 w-7 rounded-full p-1" />
-          <h1 className="hidden xxs:block">Green Agr</h1>
+          <h1 className="hidden xxs:block tracking-widest">Sivay</h1>
         </NavLink>
 
         <div className="flex items-center gap-3">

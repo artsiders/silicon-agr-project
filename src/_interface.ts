@@ -11,6 +11,13 @@ export interface Article {
     description: string;
     image: string;
 }
+export interface Tools {
+    _id?: string;
+    title: string;
+    price: number;
+    description: string;
+    image: string;
+}
 
 export interface Boisson {
     _id?: string;
