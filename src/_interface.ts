@@ -5,13 +5,11 @@ export interface Variant {
     price: number;
 }
 
-export interface Plat {
+export interface Article {
     _id?: string;
-    name: string;
+    title: string;
     description: string;
     image: string;
-    price: number;
-    variants: Variant[];
 }
 
 export interface Boisson {
@@ -36,12 +34,12 @@ export interface Restaurant {
     phoneNumber: string;
     email: string;
     password: string;
-    plats: Plat[];
+    plats: Article[];
     boissons: Boisson[];
     tables?: Table[]
 };
 
-export interface PlatCart extends Partial<Plat> {
+export interface ArticleCart extends Partial<Article> {
     variant?: Variant;
     quantity: number;
 }
@@ -51,7 +49,7 @@ export interface BoissonCart extends Partial<Boisson> {
 }
 
 export interface RestaurantCart {
-    plats: PlatCart[];
+    plats: ArticleCart[];
     boissons: BoissonCart[];
 };
 
@@ -82,7 +80,7 @@ export interface Commande {
     restaurantId: string;
     date: Date;
     price: number; // Total price of the order
-    plats: PlatCart[];
+    plats: ArticleCart[];
     boissons: BoissonCart[];
     statut: CommandeStatus; // Status of the order (pending, in_preparation, ready, served, paid)
 }

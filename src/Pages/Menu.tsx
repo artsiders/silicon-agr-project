@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import MenuCard from "../components/MenuCard";
+import MenuCard from "../components/ArticleCard";
 import { ThemeContext } from "../App";
 import { useSelector } from "react-redux"
 import { RootState } from "../app/store";
