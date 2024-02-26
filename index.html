@@ -1,0 +1,22 @@
+<!doctype html>
+<html class="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.png" />
+  <!-- <link rel="stylesheet" href="/loader.css"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resto QR</title>
+  <script>
+    const theme = localStorage.getItem("theme") || "light"
+    document.documentElement.classList.add(theme);
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <div id="modal"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

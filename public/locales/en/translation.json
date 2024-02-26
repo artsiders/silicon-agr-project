@@ -1,0 +1,88 @@
+{
+    "ready":
+      "Ready to captivate your audience with stunning digital experiences?",
+    "hi": "Hi, I'm",
+    "iam": "I'm web developer, graphic designer, and online content creator.",
+    "letsgetsarted": "Let's get started",
+    "overview": "Overview.",
+    "aboutMe":
+      "Passionate Full Stack Web and Mobile Developer, specialized in interface ergonomics and web design. 🌟 Creates responsive and optimized experiences for mobile devices. 📱💻 Available for free consultations.",
+    "contactMe": "Contact me",
+    "contactLinks": "Contact links",
+    "whatIhaveDone": "What I have done so far",
+    "workExperience": "Work Experience.",
+    "mainTechnologies": "My main technologies",
+    "seeMore": "See more...",
+    "myWork": "My work",
+    "projects": "Projects.",
+    "project": "Project.",
+    "downloadCv": "Download my resume",
+    "projectText":
+      "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+    "clientsReviews": "MY CLIENT REVIEWS",
+    "testimonials": "Testimonials",
+    "addTestimonial": "Add Testimonial",
+    "testimonialsText":
+      "Discover the testimonials of my satisfied clients. Their authentic and positive reviews testify to the quality of my services and my ability to meet their needs.",
+    "testimonial": "Testimonial",
+    
+    "english": "english",
+    "french": "french",
+
+    "contact": {
+      "yourName": "Your Name",
+      "yourEmail": "Your email",
+      "yourMessage": "Your Message",
+      "pleasEname": "Please enter your name.",
+      "pleaseemail": "Please enter your email.",
+      "pleaseValidEmail": "Please enter a valid email.",
+      "pleaseMessage": "Please enter your message.",
+      "sending": "Sending...",
+      "send": "Send Message",
+      "hiSalim": "Hi Salim, what's poppin ?",
+      "role": "Your role",
+      "goodJob": "You make a good job !"
+    },
+
+    "services": {
+      "webDeveloper": "Web Developer",
+      "webDevDesc": "Creating interactive and functional websites to meet the specific needs of clients.",
+      "graphicDesigner": "Graphic Designer",
+      "graphicDesignerDesc": "Designing visually appealing and impactful graphic elements to enhance the visual identity of brands.",
+      "mobileDeveloper": "Mobile Developer",
+      "mobileDeveloperDesc": "Developing mobile applications to provide optimal experiences on iOS and Android platforms.",
+      "contentCreator": "Content Creator",
+      "contentCreatorDesc": "Producing original and engaging online content to capture the interest and engagement of audiences."
+    },
+    
+    "experiences": {
+      "webDeveloper": "Web Developer",
+      "operation": "Assistant Chef Operation",
+      "point1": "Developing and maintaining web applications using React.js and other related technologies.",
+      "point2": "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "point3": "Implementing responsive design and ensuring cross-browser compatibility.",
+      "point4": "Participating in code reviews and providing constructive feedback to other developers.",
+      "point5": "Check tele-clearing from other banks.",
+      "point6": "Verification of digital data for domestic fund transfers."
+    },
+
+    "works": {
+      "altplus": "The Alt plus website is a platform that showcases the services and achievements of this innovative startup. Alt plus pushes the boundaries of technology to provide personalized and high-quality IT solutions.",
+      "comx": "Comx-front is a web application that allows users to easily and quickly create their own online store. With this application, you can create an online store to sell your products in just a few minutes, without the need for technical skills.",
+      "socapco": "Design and development of a website for the cosmetics company Socapco, showcasing their products and services with a modern and user-friendly interface.",
+      "smartbook": "SmartBook is a comprehensive application for managing analytical accounting specifically designed to meet the specific needs of Edkadi Hotel. This application offers advanced features that allow the hotel to track and analyze its expenses and revenues in a detailed manner.",
+      "maadana": "Ma'adana Cloud Hosting is a reliable and innovative African cloud hosting service, providing top-notch hosting solutions for businesses and individuals.",
+      "campus": "Plateforme de gestion complète du parcours universitaire, regroupant bibliothèque numérique, gestion des notes, emploi du temps, communication et supports de cours numériques."
+    },
+
+    "testimo": {
+      "student": "Student",
+      "loicMsg": "I am so grateful to have met Mr. Salim. His advice and support have helped me make progress in my studies.",
+      "merlineMsg": "The applications created by Mr. Salim are truly incredible. They have transformed the way I manage my business.",
+      "manager": "General manager of Edkadi Hotel",
+      "akaMsg": "I use the SmartBook software developed by these young individual. It is highly effective and has greatly improved our accounting system.",
+      "cyrilMsg": "The training provided by Salim has been extremely beneficial for my career. I am now better prepared for the professional world.",
+      "devFront": "Front-end Developer",
+      "dimiMsg": "I am impressed by Mr. Salim's web development skills. Working with him has been a rewarding experience."
+    }
+  }

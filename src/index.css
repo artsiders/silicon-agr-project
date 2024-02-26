@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body,
+html,
+#root {
+  overflow-x: hidden !important;
+  width: 100vw !important;
+}
+
+::selection {
+  @apply text-white bg-primary;
+}
+
+::-webkit-scrollbar {
+  @apply w-1;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/30 max-w-[5px] rounded-xl;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/50;
+}
+
+::-webkit-scrollbar-track {
+  @apply p-[2px] bg-light/30;
+}
+
+#navbar .active {
+  @apply bg-primary text-white scale-125 border-b-4 border-t-0 border-[#058c42] border-t-primary active:border-b-0 active:border-t-4;
+}
+
+/* placeholder */
+
+body {
+  @apply bg-light dark:bg-dark text-writing dark:text-white;
+}
+
+.btn {
+  @apply inline-flex uppercase items-center px-6 py-3 font-bold text-white rounded-full outline-none cursor-pointer bg-primary w-fit hover:bg-primary/90 border-b-4 border-t-0 border-[#058c42] border-t-primary active:border-b-0 active:border-t-4;
+}
+.btn-secondary {
+  @apply inline-flex uppercase items-center px-6 py-3 font-bold text-white rounded-full outline-none cursor-pointer bg-secondary w-fit hover:bg-secondary/90 border-b-4 border-t-0 border-[#1c71b8] border-t-secondary active:border-b-0 active:border-t-4;
+}
+.btn-gray {
+  @apply inline-flex uppercase items-center px-6 py-3 font-bold text-white rounded-full outline-none cursor-pointer bg-gray-500 w-fit hover:bg-gray-600/90 border-b-4 border-t-0 border-gray-700 border-t-gray-500 active:border-b-0 active:border-t-4;
+}
+.input-field {
+  @apply relative border-[1px] border-white dark:border-none p-4 transition-all dark:shadow-none shadow-[-3px_-3px_7px_#ffffff_,_3px_3px_5px_#ceced1] focus:shadow-neomorphism font-medium rounded-full outline-none bg-light dark:bg-tertiary text-writing dark:text-white;
+}
+
+.heroHeadText {
+  @apply font-black text-writing dark:text-white sm:text-[38px] xs:text-[34px] text-[30px] mt-2;
+}
+.heroSubText {
+  @apply text-writing/80 dark:text-[#dfd9ff] font-medium lg:text-[26px] sm:text-[23px] xs:text-[18px] text-[16px] lg:leading-[40px];
+}
+
+.sectionHeadText {
+  @apply text-dark dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px];
+}
+.sectionSubText {
+  @apply hidden sm:text-[18px] text-[14px] dark:text-white-100 uppercase tracking-wider;
+}
+
+.paddingX {
+  @apply px-6 sm:px-16;
+}
+.paddingY {
+  @apply py-6 sm:py-16;
+}
+.padding {
+  @apply px-6 py-10 sm:px-16 sm:py-16;
+}
+.box-center {
+  @apply flex items-center justify-center;
+}
+.link {
+  @apply font-bold text-primary hover:underline;
+}
+
+.drink-card .swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.animate-updown-lg {
+  animation: updown 6s linear infinite;
+}
+.animate-updown-sm {
+  animation: updown2 4s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes updown2 {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}

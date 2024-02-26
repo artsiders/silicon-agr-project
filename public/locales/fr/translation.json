@@ -1,0 +1,89 @@
+{
+    "key": "bonjour tout le monde !",
+    "ready":
+      "Prêt à captiver votre audience avec une expérience digitale incroyable ?",
+    "hi": "Salut, je suis",
+    "iam": "Je suis développeur web, designer graphique et créateur de contenu en ligne.",
+    "letsgetsarted": "Commençons",
+    "overview": "Apropos de moi.",
+    "aboutMe":
+      "Développeur Full Stack Web et Mobile passionné, spécialisé dans l'ergonomie des interfaces et le design web. 🌟 Crée des expériences réactives et optimisées pour les appareils mobiles. 📱💻 Disponible pour des consultations gratuites.",
+    "contactMe": "Contactez-moi",
+    "contactLinks": "Liens de contact",
+    "whatIhaveDone": "Ce que j'ai accompli jusqu'à présent",
+    "workExperience": "Expérience professionnelle.",
+    "mainTechnologies": "Mes principales technologies",
+    "seeMore": "Voir plus...",
+    "myWork": "Mon travail",
+    "projects": "Projets.",
+    "project": "Projet.",
+    "downloadCv": "Télécharger mon cv",
+    "projectText":
+      "Les projets suivants présentent mes compétences et mon expérience à travers des exemples concrets de mon travail. Chaque projet est brièvement décrit avec des liens vers des démonstrations en direct. Cela reflète ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies et à gérer efficacement des projets.",
+    "clientsReviews": "AVIS DE MES CLIENTS",
+    "testimonials": "Témoignages",
+    "addTestimonial": "Ajouter un Témoignages",
+    "testimonialsText":
+      "Découvrez les témoignages de mes clients satisfaits. Leurs avis authentiques et positifs témoignent de la qualité de mes services et de ma capacité à répondre à leurs besoins.",
+    "testimonial": "Témoignage",
+    
+    "english": "anglais",
+    "french": "français",
+
+    "contact":{
+      "yourName": "Votre nom",
+      "yourEmail": "Votre email",
+      "yourMessage": "Votre message",
+      "pleasEname": "Veuillez entrer votre nom.",
+      "pleaseemail": "Veuillez entrer votre email.",
+      "pleaseValidEmail": "Veuillez entrer une adresse email valide.",
+      "pleaseMessage": "Veuillez entrer votre message.",
+      "sending": "En-cours...",
+      "send": "Envoyez",
+      "hiSalim": "Hey Salim, quoi de neuf ?",
+      "role": "Votre rôle",
+      "goodJob": "Tu fait du bon travail !"
+    },
+
+    "services": {
+      "webDeveloper": "Développeur Web",
+      "webDevDesc": "Création de sites web interactifs et fonctionnels répondant aux besoins spécifiques des clients.",
+      "graphicDesigner": "Designer Graphique",
+      "graphicDesignerDesc": "Conception d'éléments graphiques attrayants et percutants pour améliorer l'identité visuelle des marques.",
+      "mobileDeveloper": "Développeur Mobile",
+      "mobileDeveloperDesc": "Développement d'applications mobiles pour offrir des expériences optimales sur les plateformes iOS et Android.",
+      "contentCreator": "Créateur de Contenu",
+      "contentCreatorDesc": "Production de contenus originaux et captivants en ligne pour susciter l'intérêt et l'engagement des audiences."
+    },
+
+    "experiences": {
+      "webDeveloper": "Web Developer",
+      "operation": "Assistant Chef Operation",
+      "point1": "Développement et maintenance d'applications web en utilisant React.js et autres technologies connexes.",
+      "point2": "Collaboration avec des équipes multidisciplinaires incluant des concepteurs, chefs de produit et autres développeurs pour créer des produits de haute qualité.",
+      "point3": "Mise en œuvre de la conception responsive et assurance de la compatibilité multi-navigateurs.",
+      "point4": "Participation aux revues de code et fourniture de commentaires constructifs aux autres développeurs.",
+      "point5": "télé-compensation des cheques provenant d'autres banques.",
+      "point6": "Vérification des données numériques pour les transferts inter-nationaux."
+    },
+
+    "works": {
+      "altplus": "Le site web Alt plus est une plateforme qui met en valeur les services et les réalisations de cette startup innovante. Alt plus repousse les limites de la technologie pour fournir des solutions informatiques personnalisées et de haute qualité.",
+      "comx": "Comx-front est une application web qui permet aux utilisateurs de créer facilement et rapidement leur propre boutique en ligne. Avec cette application, vous pouvez créer une boutique en ligne pour vendre vos produits en quelques minutes seulement, sans avoir besoin de compétences techniques.",
+      "socapco": "Conception et développement d'un site web pour la société de cosmétiques Socapco, mettant en valeur leurs produits et services avec une interface utilisateur moderne et conviviale.",
+      "smartbook": "SmartBook est une application complète de gestion de la comptabilité analytique spécialement conçue pour répondre aux besoins spécifiques de l'Hôtel Edkadi. Cette application offre des fonctionnalités avancées qui permettent à l'hôtel de suivre et d'analyser ses dépenses et ses revenus de manière détaillée.",
+      "maadana": "Ma'adana Cloud Hosting est un service de cloud hosting africain fiable et innovant, fournissant des solutions d'hébergement de premier ordre pour les entreprises et les particuliers.",
+      "campus": "Une plateforme complète de gestion du parcours universitaire, regroupant une bibliothèque numérique, la gestion des notes, l'emploi du temps, la communication et les supports de cours numériques."
+    },
+
+    "testimo": {
+      "student": "Étudiant",
+      "loicMsg": "Je suis tellement reconnaissant d'avoir rencontré M. Salim. Ses conseils et son soutien m'ont aidé à progresser dans mes études.",
+      "merlineMsg": "Les applications créées par M. Salim sont vraiment incroyables. Elles ont transformé la façon dont je gère mon entreprise.",
+      "manager": "Directeur général de l'Hôtel Edkadi",
+      "akaMsg": "J'utilise le logiciel SmartBook développé par ce jeune. Il est très efficace et a considérablement amélioré notre système de gestion de depenses et recettes.",
+      "cyrilMsg": "La formation dispensée par Salim a été extrêmement bénéfique pour ma carrière. Je suis maintenant mieux préparé pour le monde professionnel.",
+      "devFront": "Développeur front-end",
+      "dimiMsg": "Je suis impressionné par les compétences de développement web de M. Salim. Travailler avec lui a été une expérience enrichissante."
+    }
+  }
