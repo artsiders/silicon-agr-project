@@ -66,7 +66,7 @@ export const services = [
         price: 2400,
         description: `Accédez à des prévisions météorologiques ultra-précises pour votre ferme, et non pour la ville entière`,
         image: "/images/shutterstock_us_weather_hurricane-675x380.jpg",
-        link: "https://server-sillicon-project.vercel.app/"
+        link: "https://product-silvay.vercel.app/"
     },
     {
         title: "Scan plants",
