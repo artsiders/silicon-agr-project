@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Formations from "./Pages/Formations";
 import MarketPlace from "./Pages/MarketPlace";
 import Layout from "./components/Layout";
+import ScanQr from "./Pages/ScanQr";
 
 const Routeur = () => {
 
@@ -22,6 +23,7 @@ const Routeur = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/formations" element={<Formations />} />
                     <Route path="/market-place" element={<MarketPlace />} />
+                    <Route path="/scan" element={<ScanQr />} />
 
                     <Route path="*" element={<Notfound />} />
                 </Route>

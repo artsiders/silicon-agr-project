@@ -1,4 +1,4 @@
-import { TiWeatherPartlySunny } from "react-icons/ti";
+import { AiOutlineScan } from "react-icons/ai";
 import { BiStoreAlt } from "react-icons/bi";
 import { BiBook } from "react-icons/bi";
 import { BiHomeAlt } from "react-icons/bi";
@@ -20,8 +20,8 @@ const Navbar = () => {
       icon: BiStoreAlt,
     },
     {
-      link: "/weather",
-      icon: TiWeatherPartlySunny,
+      link: "/scan",
+      icon: AiOutlineScan,
     },
   ];
 
