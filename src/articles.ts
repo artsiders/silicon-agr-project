@@ -73,6 +73,13 @@ export const services = [
         price: 2400,
         description: `Détecté les maladies des plants, juste avec un scan!`,
         image: "/images/scan.webp",
-        link: "https://server-sillicon-project.vercel.app/"
+        link: "scan"
+    },
+    {
+        title: "Irrigation de précision",
+        price: 2400,
+        description: `Les drônes peuvent être utilisé pour cartographié la végétation et les niveaus d'humidité du sol.!`,
+        image: "/images/drone-for-agriculture-in-india.png",
+        link: "#"
     },
 ]

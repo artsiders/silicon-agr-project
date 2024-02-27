@@ -2,6 +2,7 @@ import { useState } from "react";
 import ModalScreen from "./ModalScreen";
 import { BiChevronLeft } from "react-icons/bi";
 import { BsCartPlus } from "react-icons/bs";
+import { NavLink } from "react-router-dom";
 
 interface Props {
     product: any;
@@ -9,6 +10,7 @@ interface Props {
 export default function ProductCard(props: Props) {
     const { product } = props
     const [visible, setVisible] = useState(false)
+
 
     return (
         <div className="w-[90vw] max-h-30 md:w-[400px] grid grid-cols-5 mb-5 text-left z-10 sm:w-60 shadow-card dark:shadow-none rounded-2xl bg-white dark:bg-tertiary">
@@ -18,10 +20,13 @@ export default function ProductCard(props: Props) {
                     src={product.image}
                     alt=""
                 />
-                <span onClick={() => setVisible(true)}>
+                {product.link == "scan" ? <NavLink to={`/${product.link}`}>
                     <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-white/10 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
                     </div>
-                </span>
+                </NavLink> : <span>
+                    <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-white/10 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                    </div>
+                </span>}
             </div>
             <div className="p-3 col-span-3">
                 <h3 className="mb-2 font-bold leading-tight">
@@ -30,7 +35,8 @@ export default function ProductCard(props: Props) {
                 <p className="mb-4 text-lg line-clamp-2">{product.description}</p>
                 <div className="flex justify-between items-center">
                     <h5 className="font-medium leading-tight">
-                        <a onClick={() => setVisible(true)} href={product.link} target="_blank" className="text-primary hover:underline">Voir plus →</a>
+                        {product.link == "scan" ? <NavLink to={`/${product.link}`} className="text-primary hover:underline">Voir plus →</NavLink>
+                            : <a onClick={() => setVisible(true)} href={product.link} target="_blank" className="text-primary hover:underline">Voir plus →</a>}
                     </h5>
                     <div className="flex justify-center">
                         <button className="btn-secondary text-primary">
