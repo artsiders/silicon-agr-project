@@ -68,4 +68,11 @@ export const services = [
         image: "/images/shutterstock_us_weather_hurricane-675x380.jpg",
         link: "https://server-sillicon-project.vercel.app/"
     },
+    {
+        title: "Scan plants",
+        price: 2400,
+        description: `Détecté les maladies des plants, juste avec un scan!`,
+        image: "/images/scan.webp",
+        link: "https://server-sillicon-project.vercel.app/"
+    },
 ]
