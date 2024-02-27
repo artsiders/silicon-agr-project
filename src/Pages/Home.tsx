@@ -10,7 +10,7 @@ export default function Home() {
   useScrollTo()
 
   return (
-    <div className="text-center flex w-full flex-col justify-center items-center h-fit pt-72">
+    <div className="text-center flex w-full flex-col justify-center items-center h-fit pt-20 md:pt-72">
 
       <div
         className='flex h-64 md:h-96 w-full absolute items-center justify-center gap-5 capitalize top-0 !bg-no-repeat !bg-cover'
