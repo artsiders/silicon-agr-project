@@ -1,11 +1,10 @@
-import { Tools } from "../_interface";
 import { useState } from "react";
 import ModalScreen from "./ModalScreen";
 import { BiChevronLeft } from "react-icons/bi";
 import { BsCartPlus } from "react-icons/bs";
 
 interface Props {
-    product: Tools;
+    product: any;
 }
 export default function ProductCard(props: Props) {
     const { product } = props
@@ -28,10 +27,10 @@ export default function ProductCard(props: Props) {
                 <h3 className="mb-2 font-bold leading-tight">
                     {product.title}
                 </h3>
-                <p className="mb-4 text-lg line-clamp-2">{product.price}</p>
+                <p className="mb-4 text-lg line-clamp-2">{product.description}</p>
                 <div className="flex justify-between items-center">
                     <h5 className="font-medium leading-tight">
-                        <a onClick={() => setVisible(true)} href="#" className="text-primary hover:underline">Voir plus →</a>
+                        <a onClick={() => setVisible(true)} href={product.link} target="_blank" className="text-primary hover:underline">Voir plus →</a>
                     </h5>
                     <div className="flex justify-center">
                         <button className="btn-secondary text-primary">

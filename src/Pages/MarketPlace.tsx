@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import Footer from "../components/Footer";
 import { useScrollTo } from "../components/useScrollTo";
-import { tools } from '../articles';
+import { services } from '../articles';
 import { Tools } from '../_interface';
 import ProductCard from '../components/ProductCard';
 
@@ -25,7 +25,7 @@ export default function MarketPlace() {
                 <p className="text-xl text-white font-bold tracking-widest">Services & produits</p>
             </div>
             <div className='flex flex-col md:grid md:grid-cols-2 md:gap-4'>
-                {tools.map((product: Tools, key: number) => <ProductCard key={key} product={product} />)}
+                {services.map((product: Tools, key: number) => <ProductCard key={key} product={product} />)}
             </div>
 
 

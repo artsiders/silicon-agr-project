@@ -46,3 +46,26 @@ export const tools = [
         image: "/images/sarcleuse-rotative-roto-bine.webp"
     }
 ]
+
+export const services = [
+    {
+        title: "speaker assistant",
+        price: 2400,
+        description: `
+        A speaker assistant is a voice-activated virtual assistant that is embedded in a speaker device. You can interact with it using your voice to perform various tasks, such as:
+        Playing music and controlling playback
+        Setting alarms and timers
+        Making calls and sending messages
+        Getting weather updates and news briefings
+        Controlling smart home devices`,
+        image: "/images/Screenshot_139.png",
+        link: "https://server-sillicon-project.vercel.app/"
+    },
+    {
+        title: "Food prediction",
+        price: 2400,
+        description: `Accédez à des prévisions météorologiques ultra-précises pour votre ferme, et non pour la ville entière`,
+        image: "/images/shutterstock_us_weather_hurricane-675x380.jpg",
+        link: "https://server-sillicon-project.vercel.app/"
+    },
+]
