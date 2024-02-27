@@ -30,10 +30,10 @@ const ScanQr = () => {
     <div className="text-center flex w-full flex-col justify-center items-center h-fit pt-20">
       {/* <h1 className="text-primary font-bold py-2 px-5 text-lg">Scannez le QR code sur la table</h1> */}
 
-      {result && <div className="rounded-md mb-10 p-4 flex flex-col items-center">
+      {result && <div className="rounded-md text-center justify-center mb-10 p-4 flex flex-col items-center">
         <h3 className="text-2xl font-bold mb-4">Résultat de l'analyse</h3>
 
-        <div className="flex flex-wrap w-full">
+        <div className="!mt-4 !w-full !flex !justify-center">
           <div className="w-full md:w-1/2 p-4">
             <ul className="ml-4">
               <li className="mb-2">
