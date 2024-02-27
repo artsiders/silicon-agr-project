@@ -1,6 +1,6 @@
 import { BiLoaderCircle } from "react-icons/bi";
 import { BsFillExclamationCircleFill } from "react-icons/bs";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { ChangeEvent, FormEvent, useState } from 'react';
 import axiosURL from "../axiosConfig";
 import { toast } from "sonner";
@@ -119,10 +119,10 @@ export default function LoginForm() {
                     Se connecter
                 </>}
             </button>
-            <p className="text-sm font-light text-gray-500 text-center border-t-2 pt-6 border-gray-500">
+            {/* <p className="text-sm font-light text-gray-500 text-center border-t-2 pt-6 border-gray-500">
                 Je suis nouveau, je veux {" "}
                 <NavLink to="/register" className="text-secondary font-semibold hover:underline">créer un compte pour mon restaurant.</NavLink>
-            </p>
+            </p> */}
         </form>
     )
 }
