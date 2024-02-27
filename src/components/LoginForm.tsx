@@ -4,12 +4,9 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { ChangeEvent, FormEvent, useState } from 'react';
 import axiosURL from "../axiosConfig";
 import { toast } from "sonner";
-import { useDispatch } from "react-redux";
-import { connect } from "../feature/session.slice";
 
 export default function LoginForm() {
     const navigate = useNavigate()
-    const dispatch = useDispatch()
     const [isLoading, setIsLoading] = useState(false)
 
     const [formData, setFormData] = useState({
@@ -63,7 +60,7 @@ export default function LoginForm() {
                 setIsLoading(false)
                 if (data?.data) {
                     // Handle successful response
-                    dispatch(connect(data?.data))
+                    // dispatch(connect(data?.data))
 
                     toast.success(data?.message || "bienvenue à vous ✨!")
 

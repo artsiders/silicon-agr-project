@@ -3,9 +3,6 @@ import { createContext, useEffect, useState } from "react";
 import { Toaster } from 'sonner';
 import "./i18next";
 
-
-import { Provider } from "react-redux";
-import { store } from "./app/store";
 import Routeur from "./Routeur";
 
 export const ThemeContext = createContext("light");
@@ -29,12 +26,10 @@ const App = () => {
         Theme: theme,
       }}
     >
-      <Provider store={store}>
-        <BrowserRouter>
-          <Toaster position="top-center" richColors />
-          <Routeur />
-        </BrowserRouter>
-      </Provider>
+      <BrowserRouter>
+        <Toaster position="top-center" richColors />
+        <Routeur />
+      </BrowserRouter>
     </ThemeContext.Provider>
   );
 };

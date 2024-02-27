@@ -15,7 +15,7 @@ export default function ArticleDetail(props: Props) {
         <div
             className="space-y-4 md:space-y-6 border-2 border-transparent bg-white dark:bg-transparent p-5 pb-16"
         >
-            <div className="relative overflow-hidden bg-cover bg-no-repeat bg-light rounded-2xl">
+            <div className="relative overflow-hidden bg-cover bg-no-repeat bg-light w-fit m-auto rounded-2xl">
                 <img
                     className="rounded-2xl"
                     src={article.image}
@@ -34,10 +34,10 @@ export default function ArticleDetail(props: Props) {
             </div>
 
 
-            <div className="bg-light p-2 rounded-lg pb-10">
+            <div className="bg-light dark:bg-dark p-2 rounded-lg pb-10">
                 <h2 className="font-bold py-2">Extrait gratuit de la formation</h2>
                 <iframe
-                    className="h-auto w-full rounded-xl"
+                    className="h-auto md:h-96 m-auto w-full md:w-1/2 rounded-xl"
                     src="https://www.youtube-nocookie.com/embed/g_CG397SRIY?si=61Det2QnY1Va1So7&amp;controls=0"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -46,10 +46,10 @@ export default function ArticleDetail(props: Props) {
                 </iframe>
                 {/* <p className="font-bold my-2">100 000XOF</p> */}
 
-                <div className="h-36 my-5 bg-slate-300 opacity-80 dark:bg-dark rounded-2xl flex justify-center items-center">
+                <div className="h-36 my-5 bg-slate-300 opacity-80 dark:bg-tertiary md:w-1/2 m-auto rounded-2xl flex justify-center items-center">
                     <AiFillLock className="text-3xl" />
                 </div>
-                <div className="h-10 my-5 bg-slate-300 opacity-50 dark:bg-dark rounded-2xl flex justify-center items-center">
+                <div className="h-10 my-5 bg-slate-300 opacity-50 dark:bg-tertiary md:w-1/2 m-auto rounded-2xl flex justify-center items-center">
                     <AiFillLock className="text-2xl" />
                 </div>
 
