@@ -12,7 +12,7 @@ export default function ProductCard(props: Props) {
     const [visible, setVisible] = useState(false)
 
     return (
-        <div className="w-[90vw] grid grid-cols-5 mb-5 text-left z-10 sm:w-60 shadow-card dark:shadow-none rounded-2xl bg-white dark:bg-tertiary">
+        <div className="w-[90vw] md:w-[400px] grid grid-cols-5 mb-5 text-left z-10 sm:w-60 shadow-card dark:shadow-none rounded-2xl bg-white dark:bg-tertiary">
             <div className="col-span-2 relative overflow-hidden bg-cover bg-no-repeat bg-light rounded-2xl">
                 <img
                     className="rounded-2xl h-full"

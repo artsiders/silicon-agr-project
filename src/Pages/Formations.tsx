@@ -19,10 +19,9 @@ export default function Formations() {
     useScrollTo()
 
     return (
-        <div className="text-center flex w-full flex-col justify-center items-center h-fit pt-72">
+        <div className="text-center flex w-full flex-col justify-center items-center h-fit pt-72 md:pt-96">
 
-            <div
-                className='sm:hidden flex h-64 w-full absolute items-center gap-5 capitalize top-0 !bg-no-repeat !bg-cover'
+            <div className='flex h-64 md:h-96 w-full absolute items-center gap-5 capitalize top-0 !bg-no-repeat !bg-cover'
                 style={{
                     background: `linear-gradient(
                         to bottom, 
@@ -31,13 +30,13 @@ export default function Formations() {
                 }}
             ></div>
 
-            <div className="flex flex-col gap-4">
-                <h2 className="font-bold mb-3">NOS FORMATIONS AGRICOLES À DISTANCE</h2>
+            <div className="flex flex-col gap-4 max-w-7xl">
 
+                <h2 className="font-bold mt-10">NOS FORMATIONS AGRICOLES À DISTANCE</h2>
                 <Swiper
                     slidesPerView={"auto"}
                     spaceBetween={10}
-                    className="drink-card h-fit w-screen px-5 custom-1480px:justify-center !-mx-6"
+                    className="drink-card h-fit w-screen px-5 md:pt-6 custom-1480px:justify-center !-mx-6 items-center"
                 >
                     <SwiperSlide className='!w-fit'>
                         <label className="flex justify-center items-center gap-2 uppercase whitespace-nowrap rounded-full bg-primary text-white border-transparent dark:bg-tertiary px-3 py-1 border-2 dark:border-secondary/60">
@@ -67,7 +66,9 @@ export default function Formations() {
                         </label>
                     </SwiperSlide>
                 </Swiper>
-                {articles.map((article: Article, key: number) => <ArticleCard key={key} article={article} />)}
+                <div className="flex flex-col md:flex-row gap-10 justify-center mt-5">
+                    {articles.map((article: Article, key: number) => <ArticleCard key={key} article={article} />)}
+                </div>
             </div>
             <AboutSection />
 

@@ -92,6 +92,9 @@ body {
   @apply font-bold text-primary hover:underline;
 }
 
+.drink-card .swiper-wrapper {
+  @apply md:justify-center;
+}
 .drink-card .swiper-pagination-bullet-active {
   background-color: white;
 }

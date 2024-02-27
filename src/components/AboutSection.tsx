@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function AboutSection() {
     return (
         <>
-            <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-light dark:bg-dark">
+            <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-light dark:bg-dark max-w-7xl">
                 <div className="container mx-auto">
                     <div className="flex flex-wrap items-center justify-between -mx-4">
                         <div className="w-full px-4 lg:w-6/12">
@@ -11,7 +11,7 @@ export default function AboutSection() {
                                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                                     <div className="py-3 sm:py-4">
                                         <img
-                                            src="/images/agriculteur-africain-1.jpg"
+                                            src="/images/cornfield.jpg"
                                             alt=""
                                             className="w-full rounded-2xl"
                                         />

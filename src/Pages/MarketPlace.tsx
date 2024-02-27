@@ -14,15 +14,19 @@ export default function MarketPlace() {
         <div className="text-center flex w-full flex-col justify-center items-center h-fit pt-72">
 
             <div
-                className='sm:hidden flex h-64 w-full absolute items-center gap-5 capitalize top-0 !bg-no-repeat !bg-cover'
+                className='flex h-64 md:h-96 w-full absolute items-center justify-center gap-5 capitalize top-0 !bg-no-repeat !bg-cover'
                 style={{
                     background: `linear-gradient(
                         to bottom, 
                         rgb(0 0 0 / .6), rgb(0 0 0 / 0)
                     ), url(/images/agri-tools.jpg)`,
                 }}
-            ></div>
-            {tools.map((product: Tools, key: number) => <ProductCard key={key} product={product} />)}
+            >
+                <p className="text-xl text-white font-bold tracking-widest">Services & produits</p>
+            </div>
+            <div className='flex flex-col md:grid md:grid-cols-2 md:gap-4'>
+                {tools.map((product: Tools, key: number) => <ProductCard key={key} product={product} />)}
+            </div>
 
 
             <Footer />
